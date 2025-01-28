@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <section>
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h16M4 18h7" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a>Homepage</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>About</a></li>
+                </ul>
+              </div> 
+              
+            </div>
+            <div class="navbar-center ">
+              <a class="btn btn-ghost text-xl">Daraz</a>
+            </div>
+            <div class="navbar-end">
+              <button class="btn btn-ghost btn-circle">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+              </button>
+              <button class="btn btn-ghost btn-circle">
+                <div class="indicator">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                  </svg>
+                  <span class="badge badge-xs badge-primary indicator-item"></span>
+                </div>
+              </button>
+            </div>
+          </div>
+    
+    </section>
+
+    <!-- theme colour -->
+   <div class="flex justify-end mr-10 md:mr-20 mt-10">
+    <input type="checkbox" value="synthwave" class="toggle theme-controller" />
+   </div>
+
+    <!-- hero section -->
+    <div class="hero bg-base-200 min-h-screen">
+        <div class="hero-content flex-col lg:flex-row">
+          <img
+            src="./asstes/juta-1.webp"
+            class="max-w-sm rounded-lg shadow-2xl" />
+          <div>
+            <h1 class="text-5xl font-bold">Our Collection!</h1>
+            <p class="py-6">
+              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+              quasi. In deleniti eaque aut repudiandae et a id nisi.
+            </p>
+            <button class="btn btn-primary">Get Started</button>
+          </div>
+        </div>
+      </div>
+     
+     <!--  -->
+    
+     <!-- card strt -->
+      <section class="mb-10">
+        <div class="grid  grid-cols-1 gap-x-2  place-content-center md:flex md:gap-x-3 -mt-20">
+            <div class="card card-compact bg-base-100 w-96 shadow-xl">
+                <figure>
+                  <img
+                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+              <!-- row-2 -->
+              <div class="card card-compact bg-base-100 w-96 shadow-xl">
+                <figure>
+                  <img
+                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card card-compact bg-base-100 w-96 shadow-xl">
+                <figure>
+                  <img
+                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+              <!-- row-22 -->
+              <div class="card card-compact bg-base-100 w-96 shadow-xl">
+                <figure>
+                  <img
+                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </section>
+
+      <!-- another page  -->
+       <section>
+        <div class="flex justify-center mt-10 mb-10">
+            <div class="join">
+                <input
+                  class="join-item btn btn-square"
+                  type="radio"
+                  name="options"
+                  aria-label="1"
+                  checked="checked" />
+                <input class="join-item btn btn-square" type="radio" name="options" aria-label="2" />
+                <input class="join-item btn btn-square" type="radio" name="options" aria-label="3" />
+                <input class="join-item btn btn-square" type="radio" name="options" aria-label="4" />
+              </div>
+        </div>
+       </section>
+
+
+
+        <!-- 15% discount -->
+        <section class="mb-10">
+            <h1 class="mb-2 mt-5 text-center">15% discount</h1>
+            <div class="flex justify-center">
+                
+                <div class="flex gap-5">
+                    <div>
+                      <span class="countdown font-mono text-4xl">
+                        <span style="--value:15;"></span>
+                      </span>
+                      days
+                    </div>
+                    <div>
+                      <span class="countdown font-mono text-4xl">
+                        <span style="--value:10;"></span>
+                      </span>
+                      hours
+                    </div>
+                    <div>
+                      <span class="countdown font-mono text-4xl">
+                        <span style="--value:24;"></span>
+                      </span>
+                      min
+                    </div>
+                    <div>
+                      <span class="countdown font-mono text-4xl">
+                        <span style="--value:${counter};"></span>
+                      </span>
+                      sec
+                    </div>
+                  </div>
+            </div>
+            
+        </section>
+
+
+        <!-- phone view -->
+        <section class="flex justify-center">
+            <div>
+                <div class="mockup-phone">
+                    <div class="camera"></div>
+                    <div class="display">
+                      <div class="artboard artboard-demo phone-1">
+                        <img src="./asstes/juta-1.webp" alt="">
+                        
+                        <!-- loding -->
+                         <div class="inline">
+                            <span class="loading loading-spinner loading-xs"></span>
+                     <span class="loading loading-spinner loading-sm"></span>
+                    <span class="loading loading-spinner loading-md"></span>
+                       <span class="loading loading-spinner loading-lg"></span>
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+         </section>
+
+
+          <!-- ratting -->
+        <section class="mb-10 mt-10 flex justify-center " >
+            <div class="stats shadow">
+                <div class="stat">
+                  <div class="stat-figure text-primary">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      class="inline-block h-8 w-8 stroke-current">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                    </svg>
+                  </div>
+                  <div class="stat-title">Total Likes</div>
+                  <div class="stat-value text-primary">25.6K</div>
+                  <div class="stat-desc">21% more than last month</div>
+                </div>
+              
+                <div class="stat">
+                  <div class="stat-figure text-secondary">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      class="inline-block h-8 w-8 stroke-current">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                    </svg>
+                  </div>
+                  <div class="stat-title">Page Views</div>
+                  <div class="stat-value text-secondary">2.6M</div>
+                  <div class="stat-desc">21% more than last month</div>
+                </div>
+              
+                <div class="stat">
+                  <div class="stat-figure text-secondary">
+                    <div class="avatar online">
+                      <div class="w-16 rounded-full">
+                        <img src="./asstes/IMG_20240722_205413.jpg" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="stat-value">86%</div>
+                  <div class="stat-title">Tasks done</div>
+                  <div class="stat-desc text-secondary">31 tasks remaining</div>
+                </div>
+              </div>
+        </section>
+
+   
+
+
+
+
+         <!-- abater -->
+          <section>
+            <div class="carousel w-full">
+                <div id="item1" class="carousel-item w-full">
+                  <img
+                    src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
+                    class="w-full" />
+                </div>
+                <div id="item2" class="carousel-item w-full">
+                  <img
+                    src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+                    class="w-full" />
+                </div>
+                <div id="item3" class="carousel-item w-full">
+                  <img
+                    src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+                    class="w-full" />
+                </div>
+                <div id="item4" class="carousel-item w-full">
+                  <img
+                    src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+                    class="w-full" />
+                </div>
+              </div>
+              <div class="flex w-full justify-center gap-2 py-2">
+                <a href="#item1" class="btn btn-xs">1</a>
+                <a href="#item2" class="btn btn-xs">2</a>
+                <a href="#item3" class="btn btn-xs">3</a>
+                <a href="#item4" class="btn btn-xs">4</a>
+              </div>
+          </section>
+      <!-- revew -->
+       <section>
+        <div class="w-96 text-center ">
+            <h1 class="text-center">Revew</h1>
+            <div class="collapse collapse-arrow bg-base-200 ">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-xl font-medium">Is This Product is Good?</div>
+                <div class="collapse-content">
+                  <p>This is Good Product</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">How is the build quality of this product?s</div>
+                <div class="collapse-content">
+                  <p>Best quality</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">Is it worth the price (value for money)?</div>
+                <div class="collapse-content">
+                  <p>100%</p>
+                </div>
+              </div>
+        </div>
+       </section>
+      
+      
+      
+       
+</body>
+</html>
